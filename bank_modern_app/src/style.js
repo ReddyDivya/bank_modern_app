@@ -25,8 +25,12 @@ export const layout = {
     /*
     flex-col => child elements are arranged vertically for screens.
     md:flex-row => child elements are arranged horizontally for screens at the medium breakpoint or larger.
-
+    flex-col-reverse => reverse the order of the flex items along the vertical axis.
+    flex-1 
+        - element to grow and take up available space within the flex container.
+        - flex: 1 declaration is shorthand for flex-grow: 1; flex-shrink: 1; flex-basis: 0%;
     */
     section: `flex md:flex-row flex-col ${styles.paddingY}`,
-
+    sectionReverse:`flex md:flex-row flex-col-reverse ${styles.paddingY}`,
+    sectionImgReverse: `flex-1`
 };
