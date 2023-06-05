@@ -30,6 +30,8 @@
     --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
 
+/* applied to all elements on the page */
 *{
+    /*the scrolling will be animated and smooth instead of an instant jump from one point to another.*/
     scroll-behavior: smooth;
 }
