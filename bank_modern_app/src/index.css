@@ -8,14 +8,21 @@
 @tailwind components;/*component styles*/
 @tailwind utilities;/*utility styles*/
 
-/*:root - root element of the HTML document*/
+/*:root - root element of the HTML document used to define CSS variables*/
 :root{
+    /*
+        black-gradient(CSS variable) that holds a linear gradient value
+        This gradient starts with #ffffff at -278.56% and transitions to #6d6d6d at -78.47% before ending with #11101d at 91.61%.
+        This variable can be used throughout the CSS file to apply the gradient to different elements.
+    */
     --black-gradient: linear-gradient(
         144.39deg,
         #ffff -278.56%,
         #6d6d6d -78.47%,
         #11101d 91.61%
     );
+
+    /**/
     --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
 
