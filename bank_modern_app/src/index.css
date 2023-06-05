@@ -35,3 +35,28 @@
     /*the scrolling will be animated and smooth instead of an instant jump from one point to another.*/
     scroll-behavior: smooth;
 }
+
+/*background styling using a radial gradient*/
+.text-gradient{
+    background: radial-gradient(
+        /*
+        starts at a certain position defined by percentages (64.18% 64.18%) and has a center point located at (71.16% 35.69%). 
+        These percentages determine the position of the gradient relative to the element's width and height.
+        
+        - multiple color stops defined by their respective positions and colors
+        At 0.89%, the color #def9fa is specified.
+        At 17.23%, the color #bef3f5 is specified.
+        At 42.04%, the color #9dedf0 is specified.
+        At 55.12%, the color #7de7eb is specified.
+        At 71.54%, the color #5ce1e6 is specified.
+        At 100%, the color #33bbcf is specified.
+        */
+        64.18% 64.18% at 71.16% 35.69%,
+        #def9fa 0.89%,
+        #bef3f5 17.23%,
+        #9dedf0 42.04%,
+        #7de7eb 55.12%,
+        #5ce1e6 71.54%,
+        #33bbcf 100%
+    )
+}
