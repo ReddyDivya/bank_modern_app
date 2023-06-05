@@ -64,11 +64,10 @@
     These prefixes are used for specific CSS properties that may not have full standardized support across all browsers.
     -webkit- prefixes are necessary for compatibility with older versions of some web browsers, particularly those based on the WebKit engine (such as Safari)
     */
-
     -webkit-background-clip: text;/*background applied to the element will only be visible where the text is present*/
     -webkit-text-fill-color: transparent;/*sets the color of the text to transparent - as the text becomes invisible because it is filled with a transparent color*/
     
     /*Newer versions of modern browsers typically support these properties without the need for vendor-specific prefixes(-webkit).*/
     background-clip:text;/*It clips the background of the text to the shape of the text*/
     text-fill-color: transparent;/*sets the color of the text to transparent, making it invisible*/
-}
+}/*text-gradient*/
