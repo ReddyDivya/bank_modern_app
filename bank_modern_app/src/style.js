@@ -29,8 +29,13 @@ export const layout = {
     flex-1 
         - element to grow and take up available space within the flex container.
         - flex: 1 declaration is shorthand for flex-grow: 1; flex-shrink: 1; flex-basis: 0%;
+    relative
+        - used as a base for positioning child elements within a parent container.
+        - By applying relative to the parent container, you can use absolute positioning on its child elements, positioning them relative to the parent container.
     */
     section: `flex md:flex-row flex-col ${styles.paddingY}`,
     sectionReverse:`flex md:flex-row flex-col-reverse ${styles.paddingY}`,
-    sectionImgReverse: `flex-1`
+    sectionImgReverse: `flex-1 flex ${styles.flexCenter} md:ml-10 ml-0 md:mt-0 mt-10 relative`,
+    sectionImg: `flex-1 flex ${styles.flexCenter} md:ml-10 ml-0 md:mt-0 mt-10 relative`,
+    sectionInfo: `flex-1 ${styles.flexStart} flex-col`,
 };
