@@ -58,5 +58,13 @@
         #7de7eb 55.12%,
         #5ce1e6 71.54%,
         #33bbcf 100%
-    )
+    );
+    /*
+    vendor-specific prefixes (-webkit-) for compatibility with certain web browsers
+    These prefixes are used for specific CSS properties that may not have full standardized support across all browsers.
+    */
+    -webkit-background-clip: text;/*background applied to the element will only be visible where the text is present*/
+    -webkit-text-fill-color: transparent;/*sets the color of the text to transparent - as the text becomes invisible because it is filled with a transparent color*/
+    background-clip:text;/*It clips the background of the text to the shape of the text*/
+    text-fill-color: transparent;/*sets the color of the text to transparent, making it invisible*/
 }
