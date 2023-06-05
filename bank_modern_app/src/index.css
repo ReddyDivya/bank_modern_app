@@ -22,7 +22,11 @@
         #11101d 91.61%
     );
 
-    /*--card-shadow(CSS variable) that holds a box shadow value.*/
+    /*
+        card-shadow(CSS variable) that holds a box shadow value.
+        It specifies a shadow effect with horizontal offset of 0px, vertical offset of 20px, blur radius of 100px, and a spread radius of -10px. The shadow color is defined as rgba(66, 71, 91, 0.1).
+        horizontal offset | vertical offset | blur radius | spread radius | shadow color
+    */
     --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
 
