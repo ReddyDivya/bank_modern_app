@@ -25,15 +25,15 @@ module.exports = {
     breakpoints for various screen sizes, such as xs, ss, sm, md, lg, and xl, each with their respective width values
     */
     screens:{
-      xs:"480px",
-      ss:"620px",
-      sm: "768px",
-      md: "1060px",
-      lg: "1200px",
-      xl: "1700px",
+      xs:"480px",//extra small, width of 480px or smaller
+      ss:"620px",//small, width of 620px or smaller
+      sm: "768px",//small/medium, width of 768px or smaller
+      md: "1060px",//medium, width of 1060px or smaller
+      lg: "1200px",//large, width of 1200px or smaller
+      xl: "1700px",//extra large, width of 1700px or smaller
     },//screens
   },//theme
 
-  //additional plugins if we want to use with Tailwind CSS.
+  //plugins property allows us to include additional plugins if you want to enhance Tailwind CSS with extra features or utilities.
   plugins: [],
 }/*exports*/
