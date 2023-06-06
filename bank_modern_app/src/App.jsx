@@ -19,8 +19,9 @@ const App = () => (
   Row2 => "20% Discount For 1 Month Account"
   Row3 => "The Next Generation" on left and "Get + arrow-up + Started" in middle and Robot image on right side of the screen.
 
-  3. Hero Component
-  ---------------
+  3. Stats Component
+  ------------------
+  Row4 =>  "3800+ USER ACTIVE     230+ TRUSTED BY COMPANY     $230M+ TRANSACTION"
   */
   <div className="bg-primary w-full overflow-hidden">
       
@@ -45,7 +46,12 @@ const App = () => (
 
       <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
           <div className={`${styles.boxWidth}`}>
+            {
+              /*Row4 =>  3800+ USER ACTIVE     230+ TRUSTED BY COMPANY     $230M+ TRANSACTION*/
+            }
             <Stats />
+
+            
             <Business />
             <Billing />
             <CardDeal />

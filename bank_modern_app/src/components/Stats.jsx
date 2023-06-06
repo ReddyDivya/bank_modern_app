@@ -3,11 +3,13 @@ import {stats} from "../constants";
 import styles from "../style";
 
 const Stats = () => (
+  
+  //text-gradient => customized class to show text gradient, check index.css
+
   /*
-  customized class to show text and background with a gradient, check index.css
-  -------------------------------------------------------------------------------
-  text-gradient
-    
+  Displays: Stats
+  --------------------
+  Row1 =>  3800+ USER ACTIVE     230+ TRUSTED BY COMPANY     $230M+ TRANSACTION
   */
   <section className={`${styles.flexCenter} flex-row flex-wrap sm:mb-20 mb-6`}>
     {
@@ -17,7 +19,7 @@ const Stats = () => (
                   {stat.value}
               </h4>
               <p className="font-poppins font-normal xs:text-[20.45px] text-[15.45px] xs:leading-[26.58px] leading-[21.58px] text-gradient uppercase ml-3">
-
+                  {stat.title}
               </p>
           </div>
         ))
