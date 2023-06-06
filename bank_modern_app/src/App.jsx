@@ -22,7 +22,23 @@ const App = () => (
   3. Stats Component
   ------------------
   Row4 =>  "3800+ USER ACTIVE     230+ TRUSTED BY COMPANY     $230M+ TRANSACTION"
-  */
+  
+  4. Business Component
+  -----------------------------------------
+  Row5 => Business on left side | Features on right side of the screen
+
+  5. Billing Component
+  -----------------------------------------
+  Row6 => Bill image & gradient on left side | billing heading, description, appstore and playstore images on right side of the screen.
+
+  6. CardDeal Component
+  -----------------------------------------
+  Row7 => CardDeal heading, description, and "Get Started" button on left side  | CardDeal image on right side of the screen.
+
+  7. Testimonials Component
+  -----------------------------------------
+  Row8 => 
+*/
   <div className="bg-primary w-full overflow-hidden">
       
       {/*Row1 => "HooBank" logo on left and NavLinks on right side of the screen.*/}
@@ -51,9 +67,14 @@ const App = () => (
             
             { /*Row5 => Business on left side | Features on right side of the screen*/ }
             <Business />
-            
+
+            {/*Row6 => Bill image & gradient on left side | billing heading, description, appstore and playstore images on right side of the screen.*/}
             <Billing />
+
+            {/*Row7 => CardDeal heading, description, and "Get Started" button on left side  | CardDeal image on right side of the screen.*/}
             <CardDeal />
+            
+            
             <Testimonials />
             <Clients />
             <CTA />
