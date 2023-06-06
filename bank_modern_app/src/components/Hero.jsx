@@ -7,13 +7,16 @@ const Hero = () => {
   return (
     /*
     rounded-10 => rounded corners.
-    bg-discount-gradient =>customized class to show text with a gradient, check index.css
+    
+    customized class to show text and background with a gradient, check index.css
+    -------------------------------------
+    bg-discount-gradient, pink__gradient, blue__gradient, white__gradient
     */
 
     /*
     Displays:
     Row1 => "20% Discount For 1 Month Account"
-    Row2 => "The Next Generation" on left and "Get + arrow-up + Started" on right side of the screen.
+    Row2 => "The Next Generation" on left and "Get + arrow-up + Started" in middle and Robot image on right side of the screen.
     */
     <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
         <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
@@ -29,7 +32,7 @@ const Hero = () => {
                 </p>
             </div>
 
-            {/*2. displays "The Next Generation" on left side and "Get + arrow-up" in a circle on the right side of the screen.*/}
+            {/*2:starts. displays "The Next Generation" on left side and "Get + arrow-up" in a circle on the right side of the screen.*/}
             <div className="flex flex-row justify-between items-center w-full">
                 {/*2a. displays "The Next Generation on left side of the screen*/}
                 <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
@@ -37,11 +40,12 @@ const Hero = () => {
                     <span className="text-gradient">Generation</span>{" "}
                 </h1>
 
-                {/*2b. displays "Get + arrow-up" in a circle on right side of the screen*/}
+                {/*2b. displays "Get + arrow-up" in a circle on middle side of the screen*/}
                 <div className="ss:flex hidden md:mr-4 mr-0">
                     <GetStarted/>
                 </div>
             </div>
+            {/*2:ends. displays "The Next Generation" on left side and "Get + arrow-up" in a circle on the right side of the screen.*/}
 
             {/*displays "Payment Method" on left side of the screen.*/}
             <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
@@ -61,11 +65,10 @@ const Hero = () => {
             {/*3a. displays robot image on right side of the screen.*/}
             <img src={robot} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
 
-            {/*3b. gradient start */}
+            {/*3b. background gradient to show behind the robot image*/}
             <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient"/>
             <div className="absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40"/>
             <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient"/>
-            {/*3b. gradient end */}
         </div>
 
         {
