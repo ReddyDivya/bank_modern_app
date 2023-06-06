@@ -46,13 +46,12 @@ const App = () => (
 
       <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
           <div className={`${styles.boxWidth}`}>
-            {
-              /*Row4 =>  3800+ USER ACTIVE     230+ TRUSTED BY COMPANY     $230M+ TRANSACTION*/
-            }
+            {/*Row4 =>  3800+ USER ACTIVE     230+ TRUSTED BY COMPANY     $230M+ TRANSACTION*/}
             <Stats />
-
             
+            { /*Row5 => Business on left side | Features on right side of the screen*/ }
             <Business />
+            
             <Billing />
             <CardDeal />
             <Testimonials />
