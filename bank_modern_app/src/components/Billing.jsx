@@ -7,7 +7,7 @@ Displays:Billing
 -----------------------------------------
 Row1 => 
 - displays bill image & gradient on left side of the screen.
-- displays billing heading and description on right side of the screen.
+- displays billing heading, description, appstore and playstore images on right side of the screen.
 */
 const Billing = () => (
   <section id="product" className={layout.sectionReverse}>
@@ -36,9 +36,13 @@ const Billing = () => (
             aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea
             placerat.
           </p>
+
+          {/*displays appstore and playstore images on right side of the screen*/}
+          <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
+            <img src={apple} alt="google_play" className="w-[128.86px] h-[42.05px] object-contain mr-5 cursor-pointer" />
+            <img src={google} alt="google_play" className="w-[144.17px] h-[43.08px] object-contain cursor-pointer" />
+          </div>
       </div>
-
-
   </section>  
 )
 
