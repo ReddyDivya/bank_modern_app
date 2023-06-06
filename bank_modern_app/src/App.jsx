@@ -23,28 +23,38 @@ const App = () => (
   ---------------
   */
   <div className="bg-primary w-full overflow-hidden">
+      
+      {/*Row1 => "HooBank" logo on left and NavLinks on right side of the screen.*/}
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
         </div>
       </div>
 
-      
+      {
+        /*
+        Row2 => "20% Discount For 1 Month Account"
+        Row3 => "The Next Generation" on left and "Get + arrow-up + Started" in middle and Robot image on right side of the screen.
+        */
+      }    
       <div className={`bg-primary ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Hero />
         </div>
       </div>
 
-
-      <Stats />
-      <Business />
-      <Billing />
-      <CardDeal />
-      <Testimonials />
-      <Clients />
-      <CTA />
-      <Footer />
+      <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+          <div className={`${styles.boxWidth}`}>
+            <Stats />
+            <Business />
+            <Billing />
+            <CardDeal />
+            <Testimonials />
+            <Clients />
+            <CTA />
+            <Footer />
+          </div>
+      </div>
   </div>
 )
 
