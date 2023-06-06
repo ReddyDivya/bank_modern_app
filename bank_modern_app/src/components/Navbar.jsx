@@ -11,9 +11,16 @@ const Navbar = () => {
     /*
     list-none => remove the default styling of list elements.
     */
+
+    /*
+    Displays:
+    Row1 => "HooBank" logo on left and NavLinks on right side of the screen.
+    */
     <nav className="w-full flex py-6 justify-between items-center navbar">
+        {/*Row1a => Displays "HooBank" logo on left side of the screen.*/}
         <img src={logo} alt="hoobank" className="w-[124px] h-[32px]"/>
 
+        {/*Row1b => Displays "Home", "Features", "Product", "Client" nav links on right side of the screen.*/}
         <ul className="list-none sm:flex hidden justify-end itmes-center flex-1">
           {
             navLinks.map((nav, index) => (
@@ -30,10 +37,10 @@ const Navbar = () => {
           }
         </ul>
 
-        {/*NavLinks for medium & small devices*/}
+        {/*Row1 => Displays Menu icon for medium & small devices */}
         <div className="sm:hidden flex flex-1 justify-end items-center">
           
-          {/*Display menu icon*/}
+          {/*Row1a. Display menu icon*/}
           <img src={toggle ? close : menu}
           alt='menu'
           className="w-[28px] h-[28px] object-contain"
@@ -42,6 +49,7 @@ const Navbar = () => {
           <div className={`${!toggle ? "hidden" : "flex"}
             p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
           >
+            {/*Row1b. Displays "Home", "Features", "Product", "Client" nav links.*/}
             <ul className="list-none flex justify-end items-start flex-1 flex-col">
               {
                 navLinks.map((nav, index) => (
