@@ -68,11 +68,16 @@ const Business = () =>  (
 
     {
       /* 
-      Displays: Features on right side of the screen.
+      Displays: FeatureCard on right side of the screen.
       ------------------------------------------------
-      Rewards
-      100% Secured
-      Balance Transfer
+      icon Rewards
+      Rewards description.
+
+      icon 100% Secured
+      100% Secured description.
+
+      icon Balance Transfer
+      Balance Transfer description.
       */
     }
     <div className={`${layout.sectionImg} flex-col`}>
