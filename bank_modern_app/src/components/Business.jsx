@@ -1,9 +1,17 @@
 import React from 'react'
+import Button from "Button";
+import styles, {layout} from "../style";
 
-const Business = () => {
-  return (
-    <div>Business</div>
-  )
-}
+const FeatureCard = () => (
+  <section>
+    
+  </section>
+);//FeatureCard
 
-export default Business
+const Business = () => (
+  <section>
+
+  </section>
+);//Business
+
+export default Business;
