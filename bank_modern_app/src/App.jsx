@@ -19,6 +19,8 @@ const App = () => (
   Row2 => "20% Discount For 1 Month Account"
   Row3 => "The Next Generation" on left and "Get + arrow-up + Started" in middle and Robot image on right side of the screen.
 
+  3. Hero Component
+  ---------------
   */
   <div className="bg-primary w-full overflow-hidden">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
