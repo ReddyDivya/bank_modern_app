@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     /*
     rounded-10 => rounded corners.
-    bg-discount-gradient =>customized class, check index.css
+    bg-discount-gradient =>customized class to show text with a gradient, check index.css
     */
     <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
         <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>

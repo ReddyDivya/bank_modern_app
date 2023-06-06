@@ -5,7 +5,7 @@ import {arrowUp} from "../assets";
 const GetStarted = () => (
   /*
   bg-blue-gradient => customized class, check index.css
-  text-gradient => customized class, check index.css 
+  text-gradient => customized class to show text with a gradient, check index.css 
   */
 
   /*1. displays "Get + arrow-up + Started"  in a circle*/
