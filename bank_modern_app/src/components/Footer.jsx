@@ -57,7 +57,7 @@ const Footer = () => (
       
       {/*displays Copyright on left side of the screen.*/}
       <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">
-        Copyright Ⓒ 2022 HooBank. All Rights Reserved.
+        Copyright Ⓒ 2023 HooBank. All Rights Reserved.
       </p>
       
       {/*displays social media icons on right side of the screen.*/}
