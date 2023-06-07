@@ -43,10 +43,14 @@ const App = () => (
   -----------------------------------------
   Row9 => displays clients images.
 
-  8. CTA Component
+  9. CTA Component
   -----------------------------------------
   Row10 => displays CTA heading, and description on left side | "Get Started" button on right side of the screen.
 
+  10. Footer Component
+  -----------------------------------------
+  Row11 => displays HooBank logo and description on left side | displays footer links (Useful Links | Community | Partner) on right side of the screen.
+  Row12 => displays Copyright on left side and social media icons on right side of the screen.
 */
   <div className="bg-primary w-full overflow-hidden">
       
@@ -91,6 +95,13 @@ const App = () => (
 
             {/*Row10 => displays CTA heading, and description on left side | "Get Started" button on right side of the screen.*/}
             <CTA />
+
+            {
+              /*
+              Row11 => displays HooBank logo and description on left side | displays footer links (Useful Links | Community | Partner) on right side of the screen.
+              Row12 => displays Copyright on left side and social media icons on right side of the screen.
+              */
+            }
             <Footer />
           </div>
       </div>
