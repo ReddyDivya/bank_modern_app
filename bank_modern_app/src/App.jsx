@@ -37,7 +37,16 @@ const App = () => (
 
   7. Testimonials Component
   -----------------------------------------
-  Row8 => 
+  Row8 => Testimonials heading on left side | Testimonials description on right side of the screen.he screen.
+
+  8. Clients Component
+  -----------------------------------------
+  Row9 => displays clients images.
+
+  8. CTA Component
+  -----------------------------------------
+  Row10 => displays CTA heading, and description on left side | "Get Started" button on right side of the screen.
+
 */
   <div className="bg-primary w-full overflow-hidden">
       
@@ -74,9 +83,13 @@ const App = () => (
             {/*Row7 => CardDeal heading, description, and "Get Started" button on left side  | CardDeal image on right side of the screen.*/}
             <CardDeal />
             
-            
+            {/*Row8 => Testimonials heading on left side | Testimonials description on right side of the screen.he screen.*/}
             <Testimonials />
+
+            {/*Row9 => displays clients images.*/}
             <Clients />
+
+            {/*Row10 => displays CTA heading, and description on left side | "Get Started" button on right side of the screen.*/}
             <CTA />
             <Footer />
           </div>
